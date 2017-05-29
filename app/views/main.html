@@ -1,0 +1,16 @@
+<!-- <div class="jumbotron"> -->
+<!-- <highchart id='chart1' config='main.chartConfig'></highchart>  -->
+<section class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div id='chart2' style="height:400px;"></div>
+    </div>
+  </div>
+  <!-- </div> -->
+
+  <div class="row marketing">
+    {{main.test}}
+    <input type='text' ng-model="main.symbol"></input>
+    <button type='submit' ng-click='main.getStockData()'>Add stock</button>
+  </div>
+</section>
