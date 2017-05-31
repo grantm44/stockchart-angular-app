@@ -5,3 +5,5 @@ version 0.16.0.
 
 run npm start to build and run project
 "webpack-dev-server --content-base app/"
+
+Requires CORS enabled
